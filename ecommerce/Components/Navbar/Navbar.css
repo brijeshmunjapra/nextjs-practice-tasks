@@ -1,0 +1,13 @@
+.navbar_main{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    background-color: rgb(216, 226, 236);
+    height: 4rem;
+}
+
+.navbar_right{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}

@@ -1,0 +1,57 @@
+.card {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+.card-cart{
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 0.5rem;
+  background-color: rgb(236, 227, 212);
+}
+.go-arrow {
+  background-color: rgb(99, 185, 255);
+  padding: 5px;
+  color: white;
+  border-radius: 7px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.qty_btn button {
+  border: none;
+  background-color: rgb(214, 174, 174);
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.card-title{
+  font-size: large;
+  flex: 2;
+}
+.card-desc{
+  flex: 3;
+}
+.card-buttons{
+  flex: 3
+}
+.card-title::first-letter{
+  text-transform: uppercase;
+}
+.remove-item{
+  background-color: rgb(202, 75, 75);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}

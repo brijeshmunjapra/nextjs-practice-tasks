@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sidebar_main{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(211, 205, 205);
+}
+
+.sidebar_main button{
+    margin: 20px;
+    width: 120px;
+}
+
+.home_main{
+    flex: 3;
+    height: 100vh;
+ 
+}
+
+.report_main{
+  width: 100px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.report_div{
+    display: flex;
+    align-items: center;
+   
+}
+.subreport_buttons button{
+    margin-right: 20px;
+}
+.subchild_div{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    height: 100px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+.subreport{
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 3px;
+}
